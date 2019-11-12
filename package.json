@@ -1,0 +1,15 @@
+{
+  "name": "interactive-expose-mapping-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jan Höck",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "start-local": "node index-local.js",
+    "start-debug": "node --inspect index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.556.0"
+  }
+}
